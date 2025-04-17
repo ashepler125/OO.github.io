@@ -1,0 +1,12 @@
+# Navigate to your project folder
+cd your-website-folder
+
+# Initialize Git (if not already a repo)
+git init
+git add .
+git commit -m "First commit"
+
+# Link to GitHub and push
+git remote add origin https://github.com/OO/repo-name.git
+git branch -M main
+git push -u origin main
